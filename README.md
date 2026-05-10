@@ -2,26 +2,24 @@
 
 This repository organizes project management documentation.
 
-- `docs/`: project documentation repository (start-up, planning, execution, and close-down).
+- Top-level folders: `start-up/`, `planning/`, `execution/`, and `close-down/` (each contains the documentation produced in the corresponding project phase).
 
 ## Project Structure
 
 ```text
-vibetribe/
-|- docs/
-|  |- start-up/
-|  |- planning/
-|  |  `- references/
-|  |- execution/
-|  |  |- sprint-1/
-|  |  |- sprint-2/
-|  |  |- sprint-3/
-|  |  `- sprint-4/
-|  `- close-down/
-`- Proyecto/
+vibe-tribe-docs/
+|- start-up/
+|- planning/
+|- execution/
+|  |- sprint-1/
+|  |- sprint-2/
+|  |- sprint-3/
+|  `- sprint-4/
+|- close-down/
+`- README.md
 ```
 
-## Documentation Repository (`docs/`)
+## Documentation folders
 
 - `start-up/`: documentation produced before project kickoff (Agile Inception Deck, user stories, Project Charter, Statement of Work, stakeholder register).
 - `planning/`: documentation produced during the planning phase (Sprint Planning records, project management plan, and other planning deliverables).
